@@ -1,0 +1,7 @@
+{
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "angular.enable-strict-mode-prompt": false
+}
