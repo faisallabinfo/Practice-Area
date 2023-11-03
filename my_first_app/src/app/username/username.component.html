@@ -1,0 +1,7 @@
+<h1>Assignemnt Data Binding</h1>
+<hr>
+<input type="text" [(ngModel)]="username">
+
+<button type="button" class="btn btn-success" [disabled]="username===''" (click)="username=''">Add</button>
+<p>{{username}}</p>
+
