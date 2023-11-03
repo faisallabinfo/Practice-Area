@@ -1,0 +1,6 @@
+<p *ngIf="btnStatus">This is a dummy text</p>
+
+<button type="button" (click)="changeStatus()" >{{buttonText}}</button>
+<ul>
+    <li *ngFor="let item of logData">{{item}}</li>
+</ul>
